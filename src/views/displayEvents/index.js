@@ -60,6 +60,8 @@ class DisplayEvents extends Component {
           }
       }
 
+      this.setState({ events });
+
       alert(`Event id: ${id} has been deleted.`);
     } else {
       alert('FAIL');
